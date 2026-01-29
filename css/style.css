@@ -1276,13 +1276,14 @@ body {
     padding: 0;
   }
 
-  /* content 영역: 그리드 셀 안에서 중앙 정렬 */
+  /* content 영역: 그리드 셀 안에서 중앙 정렬, PC에서 최소 600px */
   .edge-block .edge-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 1.5rem;
-    max-width: 420px;
+    min-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
@@ -1337,7 +1338,8 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0 1.5rem;
-    max-width: 420px;
+    min-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
