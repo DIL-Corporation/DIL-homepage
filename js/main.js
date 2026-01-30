@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var body = document.body;
   var langToggle = document.querySelector('.lang-toggle');
   var titles = {
-    ko: 'DIL Corporation | 데이터 기반으로 자동화하는 이커머스',
-    en: 'DIL Corporation | E-commerce automated by data'
+    ko: 'DIL Corporation | 데이터 기반으로 이커머스를 자동화하다',
+    en: 'DIL Corporation | Data-driven e-commerce automation'
   };
 
   function setLang(lang) {
