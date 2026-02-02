@@ -101,18 +101,5 @@ document.addEventListener('DOMContentLoaded', function () {
     observer.observe(el);
   });
 
-  // 헤더: 스크롤 시 배경 강조
-  var header = document.querySelector('.header');
-  if (header) {
-    var lastScroll = 0;
-    window.addEventListener('scroll', function () {
-      var y = window.scrollY;
-      if (y > 50) {
-        header.style.background = 'rgba(10, 10, 15, 0.95)';
-      } else {
-        header.style.background = 'rgba(10, 10, 15, 0.85)';
-      }
-      lastScroll = y;
-    }, { passive: true });
-  }
+  // 헤더 배경은 CSS와 동일하게 유지 (스크롤 시 변경 없음)
 });
