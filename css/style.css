@@ -79,7 +79,7 @@ img {
 }
 
 .logo-header {
-  height: 36px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -125,8 +125,8 @@ img {
 /* ========== Hero (메인 전용) ========== */
 .hero {
   width: 100%;
-  min-height: 100vh;
-  min-height: 100dvh;
+  min-height: 80vh;
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +141,7 @@ img {
 }
 
 .hero-logo {
-  width: 120px;
+  width: 500px;
   margin: 0 auto 2rem;
   opacity: 0.95;
 }
@@ -166,7 +166,7 @@ img {
   padding: calc(var(--header-height) + 4rem) 1.5rem 6rem;
   max-width: var(--container);
   margin: 0 auto;
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(80vh - var(--header-height));
   box-sizing: border-box;
 }
 
